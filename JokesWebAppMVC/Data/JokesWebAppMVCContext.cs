@@ -15,5 +15,7 @@ namespace JokesWebAppMVC.Data
         }
 
         public DbSet<Joke> Joke { get; set; } = default!;
+
+        public DbSet<JokesWebAppMVC.Models.Comedian> Comedian { get; set; }
     }
 }
